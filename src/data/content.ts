@@ -41,7 +41,7 @@ export const shorts: VideoItem[] = (["Shorts", "Reels", "Shorts", "Reels", "Shor
 export type Review = { id: string; quote: string | null; author: string | null; detail: string | null; url: string | null; avatar?: string };
 export const reviews: Review[] = [
   { id: "review-1", quote: "Монтаж видео по сценарию с подбором материалов выполнен по ТЗ, правки внесены. Благодарю за работу!", author: "Алексей Шулепов", detail: null, url: null, avatar: "/media/review-alexey.jpg" },
-  { id: "review-2", quote: "Быстро и качественно. Монтажёр справился с моей задачи на 100%", author: "teslaclub", detail: null, url: null, avatar: "/media/review-teslaclub.jpg" },
+  { id: "review-2", quote: "Быстро и качественно. Монтажёр справился с моей задачей на 100%", author: "teslaclub", detail: null, url: null, avatar: "/media/review-teslaclub.jpg" },
   { id: "review-3", quote: "Вау, это очень классно! У нас поднялись просмотры и вовлечённость.", author: "Ирина Азарова", detail: null, url: null, avatar: "/media/review-irirna.jpg" },
 ];
 export type AboutIcon = { name: string; src: string };
